@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body leftmargin="200px" rightmargin="50px"></body>
+     <h1 style="margin-top: 40px;">Nested List</h1>
+
+     <ol type="I">
+        <li>Background Skills</li>
+        </ol>
+        <ol type="A">
+        <li style="margin-left: 70px; margin-top: -15px;">Unix Commands</li>
+        <li style="margin-left: 70px;" >Vim Test Editors</li>
+        </ol>
+         <ol type="I" start="2"><li>HTML</li></ol>
+            <ol type="A">
+              
+                <li style="margin-left: 70px; margin-top: -20px;">Minimal Page</li>
+                <li  style="margin-left: 70px; ">Headings</li>
+                <li  style="margin-left: 70px;">Elements</li>
+                <li  style="margin-left: 70px;">Lists</li>
+         
+            <ol type="i">
+                   <li style="margin-left: 70px;">Unordered</li>
+                  <li style="margin-left: 70px;">Ordered</li>
+                  <li style="margin-left: 70px;">Definition</li>
+                  <li style="margin-left: 70px;">Nested</li>
+                  </ol>
+                  <ol type="A"></ol>
+                  <li style="margin-left: 70px;">LINKS </li>
+                  <ol type="i">
+                  <li style="margin-left: 70px;">Absolute</li>
+                  <li style="margin-left: 70px;">Relative</li>
+                  </ol>
+                  <ol type="A"></ol>
+                  <li style="margin-left: 70px;">Images</li>
+                   <ol type="I" start="3"><li>CSS</li></ol>
+                    
+                    </ol>
+                <ol type="A">
+        <li style="margin-left: 70px; margin-top: -20px;">Anatomy</li>
+        <li style="margin-left: 70px;">Basic Selectors</li>
+        <ol type="i">
+            <li style="margin-left: 70px;">Element</li>
+            <li style="margin-left: 70px;">Class</li>
+            <li style="margin-left: 70px;">ID</li>
+            <li style="margin-left: 70px;">Group</li>
+            </ol>
+    <ol type="A" start="3" element>
+      
+        <li style="margin-left: 70px;">The DOM</li>
+        <li style="margin-left: 70px;">Advanced Selectors</li>
+        <li style="margin-left: 70px;">Box Model</li>
+</ol>
+        <ol type="I" start="4">
+            <li>programming</li>
+            </ol>
+            <ol type="A">
+            <li style="margin-left: 70px;">Python</li>
+            <li style="margin-left: 70px;">JavaScript</li>
+        </ol>
+        <ol type="I" start="5">
+            <li>Data Base</li>
+             </ol>
+            <ol type="A">
+            <li style="margin-left: 70px;">Flat File</li>
+            <li style="margin-left: 70px;">Relational</li>
+           </ol>
+        </ol>
+  </ol>
+</ol>
+</body>
+</html>

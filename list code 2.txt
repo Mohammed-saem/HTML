@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body leftmargin="200px" rightmargin="50px">
+    <h2 style="margin-top: 100px;">EXAMPLE 1</h2>
+    <ol type="1" style="margin-left: 10px;">
+        <li>Fruit</li>
+       
+    <ul style="list-style-type: circle;">
+    <li style="margin-left: 10px;">Apples</li>
+    <li  style="margin-left: 10px;">Oranges</li>
+    <li style="margin-left: 10px;"> Pears</li>
+    </ol>
+    
+     <ol>2.Vegetables</ol>
+     <ul style="list-style-type: circle;">
+        <li style="margin-top: -30px;"></li>
+        <li style="margin-left: 60px;">Broccoli</li>
+        <li style="margin-left: 60px;">Peas</li>
+        <li style="margin-left: 60px;">Corn</li>
+     </ul>
+     <hr>
+     <body leftmargin="200px" rightmargin="50px" >
+        
+     
+     <h2 style="margin-top: 50px;">EXAMPLE 1</h2>
+  
+       <ol type="1" style="margin-left: 10px;">
+        <li>Fruit</li>
+  <ol type="1" style="margin-left: 50px;">
+       <li style="margin-left: -60px;">Apples</li>
+       <li style="margin-left: -60px;">Oranges</li>
+       <li style="margin-left: -60px;">Pears</li>
+       <li style="margin-left: -60px;"> Mango</li>
+    </ol>
+    </ol>
+    <ol type="1" style="margin-left: 10px;"></ol>
+        <ol>2.Vegetables</ol>
+        <ol type="1">
+     
+        <li style="margin-left: 60px;">Broccoli</li>
+        <li style="margin-left: 60px;">Peas</li>
+        <li style="margin-left: 60px;">Capsicum</li>
+        <li style="margin-left: 120px;">Green Capsicum</li>
+        <li style="margin-left: 120px;">Yellow Capsicum</li>
+         <li style="margin-left: 120px;">Red Capsicum</li>
+</ol>
+</ol>
+<ol style="margin-left: 60px;"> 1.corn</ol>
+
+    
+  
+</body>
+</html>
