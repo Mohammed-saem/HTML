@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 10vh;
+       width: 100%;
+       background-color: rgb(255, 244, 244);
+       display: flex;
+       gap: 5px;
+       align-items: center;
+       padding-left: 10px;
+    }
+    .arrow{
+      font-size: 20px;
+    }
+    .serach-box{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        width: 84.9vw;
+        background: white;
+        border: 1px solid slategray;
+        padding:  5px 10px;
+         box-shadow: 0 0 50px rgba(0,0,0,0.05);
+         border-radius: 30px;
+     
+    }
+    .serach-box input{
+         border: none;
+        outline: none; 
+        flex: 1;
+       margin-left: -1px;
+         font-size: 16px;
+      padding:1px;
+          }
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* distance between image and ⋮ icon */
+     margin-top: 5px;
+}
+.google{
+    height: 100vh;
+    background-color: rgb(185, 158, 158);
+    width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+gap: 20px;
+
+
+}
+.serach2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: white;
+    width: 45vw;
+    
+
+     
+
+    
+} 
+.serach2 input{
+  outline: none;
+    border: none;
+    flex: 1;
+    font-size: 16px;
+   
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="arrow" > 
+⬅
+        </div>
+       <div class="arrow">➞</div>
+       <div class="arrow"> ⭮</div>  
+     
+        <div class="serach-box">
+            <img src="logo.png" alt="logo" style="width: 20px; height: 20px;">
+            <input type="text" placeholder="Serach.." style="margin-left: 10px;">
+            <i class="fas fa-search"></i>
+            <span style="font-size: 20px; ">☆</span>
+        
+      
+           
+        </div>
+         <span style="margin-bottom: 1px; margin-left:-10px; font-size: 20px;"  >⬇️</span>
+       <div class="profile">
+       <span>
+        <img src="profile.jpg" alt="Profile" style="width: 25px; height: 25px; border-radius: 50%;" >
+    </span>
+        <span style="font-size: 20px;  display: inline-block;">⋮</span>
+        </div>
+    
+    </div>
+     <div class="google">
+        <img src="google.jpg" alt="logo" style="height: 280px; width: 330px; display: block; margin-bottom: 0px;"> 
+
+        <div class="serach2">
+        <input type="text" placeholder="serach" >
+        <i class="fas fa-search"></i>
+    </div>
+      </div>
+
+     
+</body>
+</html>

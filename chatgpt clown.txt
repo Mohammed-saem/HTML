@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rounded Divs</title>
+ 
+</head>
+<style>
+  *{
+    margin: 0;
+  }
+  .box1{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+       margin-left: 35%;
+    margin-top: 50%;    
+      justify-content: center;
+       border-radius: 50%;
+  }
+  .box2{
+    background-color: aqua;
+   height: 150px;
+    width: 150px;
+        margin-left: 35%;
+    margin-top: 50%;
+      justify-content: center;
+       border-radius: 50%;
+      
+  }
+    .box3{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatgapt</title>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        
+    }
+    
+    .container {
+       display: flex;
+      gap: 20px;
+      padding: 20px;
+      
+    }
+    .gpt{
+ overflow-y: auto;
+       height: 200vh;
+       width: 20vw;
+       background-color: rgba(234, 220, 220, 0.39);
+       border: 2px solid rgb(16, 9, 9);
+      padding: 10px;
+    }
+   
+    .right {
+      width: 75%;
+      background-color: #f0f0f0; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      background-color: #ffffff;
+      margin-bottom: 10px;
+      padding: 40px ;
+flex-direction: column;  
+height: 100vh;
+text-align: left;
+    }
+    .border{
+      border: 2px solid #aaa;
+      width: 650px;
+      height: 90px;
+      border-radius: 30px;
+      text-align: left;
+       margin-top: 10px;
+      display: inline-block;  
+  padding: 10px 20px;
+
+    }
+
+.add {
+  display: block;
+  margin-top: 5px;
+}
+.clip {
+  display: block;
+  margin-left: 0; 
+  margin-top: 10px;
+}
+.clip1{
+  display: block;
+  margin-left: 40px;
+  margin-top: -20px;
+}
+
+.clip2{
+  display: block;
+  margin-left: 540px;
+  margin-top: -23px;
+}
+.clip3{
+  display: block;
+  margin-left: 585px;
+  margin-top: -29px;
+}
+
+
+</style>
+<body>
+      <div class="container">
+<div class="gpt">
+  <div style="margin-top: 40px; margin-left: 20px;">  💬  1. New chat</div>
+  <div style="margin-top: 10px; margin-left:5px;">
+    <span >🔍︎</span>
+     <span ></span>
+    <input type="text" placeholder="Serach chat" style="width: 150px; margin-left: 3px;"></div>
+    <div style="margin-top: 10px; margin-left: 18px;">📁 3.Libary</div>
+    <div style="margin-top: 40px; margin-left: 18px;">▶️ 4.Sora</div>
+      <div style="margin-top: 10px; margin-left: 18px;">💭 5.GPTs</div>
+      <div style="margin-top: 28px; margin-left: 22px;">Chats</div>
+   <div style="margin-top: 15px; margin-left: 8px;">Time to create a clown of Chatgpt</div>
+  <div style="margin-top: 15px; margin-left: 8px;">chatgpt are very faster code provider</div>
+  <div style="margin-top: 15px; margin-left: 8px;">tell me about fronted developer</div>
+   <div style="margin-top: 15px; margin-left: 8px;">code writer  </div>
+    <div style="margin-top: 15px; margin-left: 8px;">tell me about fronted developer</div>
+   <div style="margin-top: 15px; margin-left: 8px;">full stack developer</div>
+      <div style="margin-top: 15px; margin-left: 8px;">design the starctures</div>
+         <div style="margin-top: 15px; margin-left: 8px;">as a fresher fast code writer</div>
+            <div style="margin-top: 15px; margin-left: 8px;">No need to any AI</div>
+               <div style="margin-top: 15px; margin-left: 8px;">developer saem</div>
+                  <div style="margin-top: 15px; margin-left: 8px;">using html and css </div>
+                     </div>
+  
+
+            <div class="chat">
+               <select style=" font-size: 15px; outline: none;border: none; margin-top:10px; ;" >
+    <option disabled selected>ChatGPT</option>
+    <option value="chatgpt">ChatGPT</option>
+    <option value="copilot">Copilot</option>
+    <option value="bard">➡️ Bard</option>
+  </select>
+
+            </div>
+<div class="right" >
+
+  <strong><h3>What can I help with?</h3></strong>
+  
+   <div class="border">
+  <textarea placeholder="Ask me anything"  rows = "2" style="width: 100%; outline: none;  border: none; font-size: 20px; resize: none; "></textarea>
+    <div class="add" >
+      <button class="clip" style="border: none; box-shadow: none; outline: none; background: transparent;">
+        ➕
+      </button>
+      <button class="clip1"style="border: none; box-shadow: none; outline: none; background: transparent;">
+
+ 📂
+  </div>
+      
+        </button>
+      <button class="clip2" style="border: none; box-shadow: none; outline: none; background: transparent; font-size: 20px;">🎤︎︎</button>
+      <button class="clip3" style="border: none; font-size: 20px; box-shadow: none; outline: none; background: transparent;">🔈</button>
+    </div>
+    
+
+
+
+   </div>
+   
+   </div>
+
+</div>
+  
+ 
+</body>
+</html>
