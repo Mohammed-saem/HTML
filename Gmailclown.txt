@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Clone</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body class="bg-[#f6f8fc]">
+    <div class="h-20 flex items-center px-5 gap-6">
+      <span class="text-2xl">
+        <ion-icon name="menu" class="text-3xl text-black"></ion-icon>
+      </span>
+      <div class="flex items-center gap-3">
+        <span class="h-4 w-8 mb-3">
+         <img src="email.jpg" alt="">
+        </span>
+        <p class="text-gray-600 text-3xl">Gmail</p>
+      </div>
+      <div class="relative flex-1">
+        <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-600">
+          <ion-icon name="search-outline" class="text-xl"></ion-icon>
+        </span>
+        <span class="absolute inset-y-0 right-0 flex items-center pr-3 text-black text-2xl">
+          <ion-icon name="filter-outline"></ion-icon>
+        </span>
+        <input
+          type="email"
+          placeholder="Search Email"
+          class="w-full h-12 px-3 pl-10 pr-10 rounded-2xl bg-gray-100 shadow-md border border-gray-400"
+        />
+      </div>
+      <span class="flex gap-x-3 ml-auto">
+        <ion-icon name="help-outline" class="border p-1 rounded-full text-xl"></ion-icon>
+        <ion-icon name="settings-outline" class="border p-1 rounded-full text-xl"></ion-icon>
+        <ion-icon name="apps-outline" class="border p-1 rounded-full text-xl"></ion-icon>
+        <img src="zudio.jpg" alt="saem" class="h-8 w-8 rounded-full" />
+      </span>
+    </div>
+
+    <div class="flex">
+      <div class="w-64 p-4 ">
+        <div class="bg-blue-300 text-black p-4 rounded-2xl w-40 shadow-md flex gap-3 hover:bg-gray-100 cursor-pointer">
+          <ion-icon name="pencil-outline" class="text-2xl"></ion-icon>
+          <span class="text-base">Compose</span>
+        </div>
+
+        <div class="mt-5 flex flex-col gap-2">
+          <div class="w-full bg-gray-100 h-10 rounded-2xl hover:bg-gray-200 flex items-center cursor-pointer px-4">
+            <ion-icon name="mail-open-outline" class="mr-2"></ion-icon>
+            <span class="text-black font-medium">Inbox</span>
+          </div>
+
+          <div class="w-full bg-gray-100 h-10 rounded-2xl hover:bg-gray-200 flex items-center cursor-pointer px-4 gap-2">
+            <ion-icon name="star-outline"></ion-icon>
+            <span class="text-black font-medium">Starred</span>
+          </div>
+
+          <div class="w-full bg-gray-100 h-10 rounded-2xl hover:bg-gray-200 flex items-center cursor-pointer px-4 gap-2">
+            <ion-icon name="hourglass-outline"></ion-icon>
+            <span class="text-black">Snoozed</span>
+          </div>
+
+          <div class="w-full bg-gray-100 h-10 rounded-2xl hover:bg-gray-200 flex items-center cursor-pointer px-4 gap-2">
+            <ion-icon name="send-outline"></ion-icon>
+            <span class="text-black">Send</span>
+          </div>
+
+          <div class="w-full bg-gray-100 h-10 rounded-2xl hover:bg-gray-200 flex items-center cursor-pointer px-4 gap-2">
+            <ion-icon name="file-tray-outline"></ion-icon>
+            <span class="text-black">Draft</span>
+          </div>
+
+          <div class="mt-3">
+            <select class="w-full h-10 rounded-2xl bg-gray-100 text-black px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 hover:bg-gray-200">
+              <option selected disabled>More</option>
+              <option value="spam">Spam</option>
+              <option value="bin">Bin</option>
+              <option value="categories">Categories</option>
+              <option value="manage">Manage Label</option>
+            </select>
+          </div>
+
+          <div class="mt-3 flex items-center justify-between px-2">
+            <h3 class="text-base">Label</h3>
+            <ion-icon name="add-outline" class="text-2xl"></ion-icon>
+          </div>
+
+          <div class="mt-40 ml-1">
+            <div class="bg-gray-200 hover:bg-gray-300 flex items-center h-8 w-[200px] px-2 rounded-md">
+              <ion-icon name="chevron-up-circle"></ion-icon>
+              <h3 class="ml-3">Upgrade</h3>
+              <ion-icon name="arrow-forward-outline" class="ml-auto"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-1  justify-between bg-white ">
+       <div class="flex text-gray-600 bg-white h-12 gap-6 ` items-center px-4 mb-3 w-[1200px] ">
+<span class="text-1xl gap-3 flex" >
+          <ion-icon name="square-outline"></ion-icon>
+          <ion-icon name="reload-outline"></ion-icon>
+          <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+          <input type="number" placeholder="1-50 of  4068" class="ml-[900px]  w-32 ">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+        </div>
+<div class="flex gap-4 ml-4 mt-4  ">
+  <div class=" h-12 w-64 flex  hover:bg-gray-200  items-center justify-center rounded-md gap-3 border-b-2 border-b-blue-500 ">
+  <ion-icon name="card-outline"></ion-icon> <span class="mb-1"> Primary</span>
+  </div>
+  <div class=" hover:bg-gray-200 h-12 w-64 flex items-center  gap-2 rounded-md ">
+    <span class="mt-4 ml-8"><ion-icon name="pricetag-outline"></ion-icon> </span><span>Promotions</span>
+    <span class="bg-green-800 mb-2 text-white  h-6 w-[60px] text-[13px] rounded-2xl items-center justify-center p-1 ">50 New </span>
+    
+</div> 
+          <div class=" hover:bg-gray-200  h-12 w-64 flex items-center justify-center  gap-4 rounded-md ">
+ <ion-icon name="person-outline"></ion-icon><span>Social</span> <span class="bg-blue-800 text-white  h-6 w-[60px] text-[13px] rounded-2xl items-center justify-center p-1 mb-2 ">9 New </span>
+  </div>
+  <div class=" h-12 hover:bg-gray-200  w-64 flex items-center justify-center  gap-4 ">
+    <ion-icon name="ticket-outline"></ion-icon> <span>Updates</span><span class="bg-orange-800   text-white  h-6 w-[60px] text-[13px] rounded-2xl items-center justify-center p-1  mb-2 ">9 New </span>
+  </div>
+
+
+      </div>
+      
+ <div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+<div class="w-[1200px] h-10 bg-gray-200 mt-1   flex items-center gap-10">
+  <span class="ml-3 flex gap-x-3">
+    <ion-icon name="stop-outline"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+  </span>
+  <i>5 Paisa</i>
+  <h3>Please take a note of the following information in respect of your trading and demat account with us.
+
+</h3>
+<span class="ml-[200PX]">1 Aug</span>
+</div>
+    
+ <div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+<div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+<div class="w-[1200px] h-10 bg-gray-200 mt-1 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-2 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-2 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-2 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+ <div class="w-[1200px] h-10 bg-gray-200 mt-2 flex items-center gap-10 ">
+<span class="ml-3  flex gap-x-3 ">
+<ion-icon name="stop-outline"></ion-icon>
+  <ion-icon name="star-outline"></ion-icon></span>
+  <i>Choice</i>
+  <h3>Please join the mock session and test your respective functionalities. Your participation is crucial for ensuring a seamless transition.</h3> <span>1 Aug</span>
+</div>
+
+
+
+        
+         </div>
+         <div class="w-16 bg-[#f6f8fc] h-screen flex flex-col items-center py-4 gap-6">
+  <ion-icon name="calendar-outline" class="text-2xl text-gray-600 hover:text-black cursor-pointer"></ion-icon>
+  <ion-icon name="document-outline" class="text-2xl text-gray-600 hover:text-black cursor-pointer"></ion-icon>
+  <ion-icon name="chatbubble-ellipses-outline" class="text-2xl text-gray-600 hover:text-black cursor-pointer"></ion-icon>
+  <ion-icon name="notifications-outline" class="text-2xl text-gray-600 hover:text-black cursor-pointer"></ion-icon>
+  <p>____</p>
+  <ion-icon name="add-outline" class="text-2xl text-gray-600 hover:text-black cursor-pointer"></ion-icon>
+</div>
+         
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
